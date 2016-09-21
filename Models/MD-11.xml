@@ -777,7 +777,7 @@
 		<name>Engine reverser 1</name>
 		<type>translate</type>
 		<object-name>left.reverser</object-name>
-		<property>engines/engine[0]/reverser-pos-norm</property>
+		<property>sim/multiplay/generic/float[7]</property>
 		<factor>0.4</factor>
 		<axis>
 	    <x1-m>-3.1145</x1-m>
@@ -789,26 +789,18 @@
 		</axis>
 	</animation>
 	
-		<effect>
-		<inherits-from>Aircraft/MD-11/Models/Effects/engine</inherits-from>
-    <object-name>engines.chrome</object-name>
-<object-name>slat.1.part3</object-name>
-<object-name>slat.1.part2</object-name>
-<object-name>slat.1.part1</object-name>
-<object-name>slat.4.part3</object-name>
-<object-name>slat.4.part2</object-name>
-<object-name>slat.4.part1</object-name>
-<object-name>slat.2</object-name>
-<object-name>slat.3</object-name>
-<object-name>wiper.left</object-name>
-<object-name>wiper.right</object-name>
+	<effect>
+	    <inherits-from>Aircraft/MD-11/Models/Effects/engine</inherits-from>
+	    <object-name>engines.chrome</object-name>
+	    <object-name>wiper.left</object-name>
+	    <object-name>wiper.right</object-name>
 	</effect>
 	
-		<animation>
+	<animation>
 		<name>Engine reverser 2</name>
 		<type>translate</type>
 		<object-name>center.reverser</object-name>
-		<property>engines/engine[1]/reverser-pos-norm</property>
+		<property>sim/multiplay/generic/float[8]</property>
 		<factor>-0.4</factor>
 		<axis>
 	    <x1-m>28.8442</x1-m>
@@ -824,7 +816,7 @@
 		<name>Engine reverser 3</name>
 		<type>translate</type>
 		<object-name>right.reverser</object-name>
-		<property>engines/engine[2]/reverser-pos-norm</property>
+		<property>sim/multiplay/generic/float[9]</property>
 		<factor>0.4</factor>
 		<axis>
 	    <x1-m>-3.1145</x1-m>
@@ -1190,7 +1182,7 @@
 <object-name>nose.scissor.up</object-name>
 <object-name>front.strut.low</object-name>
     <object-name>front.strut.high.2</object-name>
-        <property>gear/gear[0]/steering-norm</property>
+        <property>/sim/multiplay/generic/float[10]</property>
 		<factor>68</factor>
 	 	<axis>
 			<x1-m>-20.4239</x1-m>
@@ -1208,8 +1200,8 @@
   <object-name>front.strut.low</object-name>
   <object-name>tyres</object-name>
   <object-name>nose.scissor.down</object-name>
-  <property>gear/gear[0]/compression-m</property>
-  <factor>-0.8</factor>
+  <property>sim/multiplay/generic/float[0]</property>
+  <factor>-1.8</factor>
 	 	<axis>
 			<x1-m>-20.4239</x1-m>
 			<y1-m>0</y1-m>
@@ -1223,7 +1215,7 @@
  	    	<animation>
 		<type>spin</type>
 		<object-name>tyres</object-name>
-		<property>gear/gear[0]/rollspeed-ms</property>
+		<property>/sim/multiplay/generic/float[11]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1299,6 +1291,25 @@
     </animation>
     
     	<!-- Right main gear -->
+		
+	 <animation>
+		<type>rotate</type>
+		<object-name>tyres.right.back</object-name>
+		<object-name>tyres.right.front</object-name>
+		<object-name>right.strut.low2</object-name>
+		<property>/sim/multiplay/generic/float[5]</property>
+		<factor>-1</factor>
+		<center>
+		    <x-m>3.95</x-m>
+		    <y-m>0</y-m>
+		    <z-m>1.24</z-m>
+		</center>
+		<axis>
+		    <x>0</x>
+		    <y>1</y>
+		    <z>0</z>
+		</axis>
+	</animation>
     	
     								<animation>
 		<type>rotate</type>
@@ -1306,6 +1317,7 @@
 <object-name>tyres.right.back</object-name>
 <object-name>tyres.right.front</object-name>
  <object-name>right.strut.low</object-name>
+ <object-name>right.strut.low2</object-name>
   <object-name>right.main.door</object-name>
   <object-name>right.scissor.down</object-name>
    <object-name>right.scissor.up</object-name>
@@ -1332,12 +1344,12 @@
     	           <animation>
   <type>translate</type>
  <object-name>right.strut.low</object-name>
+ <object-name>right.strut.low2</object-name>
   <object-name>tyres.right.front</object-name>
 <object-name>tyres.right.back</object-name>
-<object-name>right.strut.low.2</object-name>
  <object-name>right.scissor.down</object-name>
-  <property>gear/gear[2]/compression-m</property>
-  <factor>-1.2</factor>
+  <property>sim/multiplay/generic/float[2]</property>
+  <factor>-2.0</factor>
         <axis>
             <x>0</x>
             <y>0</y>
@@ -1388,7 +1400,7 @@
      	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.right.front</object-name>
-		<property>gear/gear[2]/rollspeed-ms</property>
+		<property>/sim/multiplay/generic/float[13]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1405,7 +1417,7 @@
 		     	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.right.back</object-name>
-		<property>gear/gear[2]/rollspeed-ms</property>
+		<property>/sim/multiplay/generic/float[13]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1498,6 +1510,25 @@
 	</animation>
 	
 	    	<!-- Left main gear -->
+			
+	 <animation>
+		<type>rotate</type>
+		<object-name>tyres.left.back</object-name>
+		<object-name>tyres.left.front</object-name>
+		<object-name>left.strut.low2</object-name>
+		<property>/sim/multiplay/generic/float[4]</property>
+		<factor>-1</factor>
+		<center>
+		    <x-m>3.95</x-m>
+		    <y-m>0</y-m>
+		    <z-m>1.24</z-m>
+		</center>
+		<axis>
+		    <x>0</x>
+		    <y>1</y>
+		    <z>0</z>
+		</axis>
+	</animation>
     	
     								<animation>
 		<type>rotate</type>
@@ -1505,6 +1536,7 @@
 <object-name>tyres.left.back</object-name>
 <object-name>tyres.left.front</object-name>
  <object-name>left.strut.low</object-name>
+<object-name>left.strut.low2</object-name>
   <object-name>left.main.door</object-name>
   <object-name>left.scissor.down</object-name>
    <object-name>left.scissor.up</object-name>
@@ -1533,10 +1565,10 @@
  <object-name>left.strut.low</object-name>
   <object-name>tyres.left.front</object-name>
 <object-name>tyres.left.back</object-name>
-<object-name>left.strut.low.2</object-name>
+<object-name>left.strut.low2</object-name>
  <object-name>left.scissor.down</object-name>
-  <property>gear/gear[1]/compression-m</property>
-  <factor>-1.2</factor>
+  <property>sim/multiplay/generic/float[1]</property>
+  <factor>-2.0</factor>
         <axis>
             <x>0</x>
             <y>0</y>
@@ -1587,7 +1619,7 @@
      	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.left.front</object-name>
-		<property>gear/gear[1]/rollspeed-ms</property>
+		<property>/sim/multiplay/generic/float[12]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1604,7 +1636,7 @@
 		     	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.left.back</object-name>
-		<property>gear/gear[1]/rollspeed-ms</property>
+		<property>/sim/multiplay/generic/float[12]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1697,6 +1729,60 @@
 	</animation>
 	
 		    	<!-- Central main gear -->
+				
+    	           <animation>
+  <type>translate</type>
+ <object-name>central.strut.low</object-name>
+  <object-name>tyres.central</object-name>
+ <object-name>center.scissor.down</object-name>
+  <property>sim/multiplay/generic/float[3]</property>
+  <factor>-2.0</factor>
+        <axis>
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+        </axis>
+ </animation>
+ 
+ 			    	        <animation>
+        <type>rotate</type>
+        <object-name>central.scissor.down</object-name>
+        <property>gear/gear[3]/compression-norm</property>
+        <interpolation>
+            <entry><ind>0</ind><dep>0</dep></entry>
+            <entry><ind>0.5</ind><dep>-60</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>4.87</x-m>
+            <y-m>0</y-m>
+            <z-m>1.65</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>-1</y>
+            <z>0</z>
+        </axis>
+    </animation>
+    
+    		    	        <animation>
+        <type>rotate</type>
+        <object-name>central.scissor.up</object-name>
+        <property>gear/gear[3]/compression-norm</property>
+        <interpolation>
+            <entry><ind>0</ind><dep>0</dep></entry>
+            <entry><ind>0.5</ind><dep>60</dep></entry>
+        </interpolation>
+        <center>
+            <x-m>5.235</x-m>
+            <y-m>0</y-m>
+            <z-m>2.26</z-m>
+        </center>
+        <axis>
+            <x>0</x>
+            <y>-1</y>
+            <z>0</z>
+        </axis>
+    </animation>
     	
     								<animation>
 		<type>rotate</type>
@@ -1811,7 +1897,7 @@
 			     	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.central</object-name>
-		<property>gear/gear[3]/rollspeed-ms</property>
+		<property>/sim/multiplay/generic/float[14]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1891,8 +1977,6 @@
 <object-name>cargo1</object-name>
 <object-name>cargo2</object-name>
 <object-name>cargo3</object-name>
-<object-name>flap.3.part2</object-name>
-<object-name>flap.5.part2</object-name>
 <object-name>cabin_windows.klm.paint</object-name>
 <object-name>cabin_windows.finnair.paint</object-name>
 <object-name>cabin_windows.klm.finnair.paint</object-name>
@@ -1905,6 +1989,12 @@
 <object-name>ldoor.3</object-name>
 <object-name>rdoor.4</object-name>
 <object-name>ldoor.4</object-name>
+<object-name>engines</object-name>
+<object-name>left.reverser</object-name>
+<object-name>right.reverser</object-name>
+<object-name>VHF.lowerF</object-name>
+<object-name>VHF.lowerA</object-name>
+<object-name>VHF.upper</object-name>
 <object-name>windshield.frames</object-name>
  </effect>
  
@@ -1945,13 +2035,30 @@
 <object-name>AileronR1</object-name>
 <object-name>AileronR2</object-name>
 <object-name>sp.brake.right.outer</object-name>
-<object-name>sp.brake.left.inner</object-name>
+<object-name>sp.brake.right.inner</object-name>
 <object-name>flap.5</object-name>
 <object-name>flap.6</object-name>
 <object-name>flap.7</object-name>
 <object-name>flap.8</object-name>
+<object-name>flap.9</object-name>
+<object-name>flap.9.part2</object-name>
+<object-name>flap.10</object-name>
+<object-name>flap.10.part2</object-name>
+<object-name>flap.11</object-name>
+<object-name>flap.000</object-name>
+<object-name>flap.12</object-name>
+<object-name>flap.015</object-name>
+<object-name>flap.13</object-name>
+<object-name>flap.13.part2</object-name>
+<object-name>flap.14</object-name>
+<object-name>flap.14.part2</object-name>
+<object-name>HorzStab1</object-name>
+<object-name>HorzStab2</object-name>
+<object-name>elevator.1</object-name>
+<object-name>elevator.2</object-name>
 <object-name>left.main.door</object-name>
 <object-name>right.main.door</object-name>
+<object-name>Cylinder.006</object-name>
  </effect>
 
 
@@ -2696,6 +2803,9 @@
 <object-name>ldoor.3</object-name>
 <object-name>rdoor.4</object-name>
 <object-name>ldoor.4</object-name>
+<object-name>VHF.lowerF</object-name>
+<object-name>VHF.lowerA</object-name>
+<object-name>VHF.upper</object-name>
 <property-base>sim/model/livery</property-base>
 <texture-prop>texture</texture-prop>
 <texture>md11.png</texture>
@@ -2817,7 +2927,8 @@
 	<type>rotate</type>
 	<object-name>ldglight.right.glass</object-name>
 	<object-name>ldglight.right</object-name>
-	<property>controls/lighting/landing-light[2]</property>
+	<!--property>controls/lighting/landing-light</property-->
+	<property>sim/multiplay/generic/int[4]</property>
 	<factor>90</factor>
 	<axis>
 	    <x>0</x>
@@ -2835,7 +2946,8 @@
 	<type>rotate</type>
 	<object-name>ldglight.left.glass</object-name>
 	<object-name>ldglight.left</object-name>
-	<property>controls/lighting/landing-light</property>
+	<!--property>controls/lighting/landing-light</property-->
+	<property>sim/multiplay/generic/int[4]</property>
 	<factor>-90</factor>
 	<axis>
 	    <x>0</x>
