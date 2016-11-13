@@ -4,7 +4,7 @@
 
 <airplane version="YASIM_VERSION_32" mass="283975">
     <!-- Approach configuration based on stall chart http://tinypic.com/hsqd1l.jpg (from airliners.net thread http://www.airliners.net/aviation-forums/tech_ops/read.main/135496/) -->
-    <approach speed="163" aoa="4.0" fuel="0.2">
+    <approach speed="167" aoa="5.0" fuel="0.2">
 	<control-setting axis="/controls/engines/engine[0]/throttle-act" value="0.4" />
 	<control-setting axis="/controls/engines/engine[1]/throttle-act" value="0.4" />
 	<control-setting axis="/controls/engines/engine[2]/throttle-act" value="0.4" />
@@ -122,7 +122,7 @@
 	<control-speed control="EXTEND" transition-time="15"/>
     </gear>
     <!-- Left main gears (aft wheels)-->
-    <gear x="-3.9525" y="-5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
+    <gear x="-3.9525" y="5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
 	<control-input axis="/controls/gear/brake-left" control="BRAKE"/>
 	<control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 	<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -130,7 +130,7 @@
 	<control-speed control="EXTEND" transition-time="19" />
     </gear>
     <!-- Right main gears (aft wheels)-->
-    <gear x="-3.9525" y="5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
+    <gear x="-3.9525" y="-5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
 	<control-input axis="/controls/gear/brake-right" control="BRAKE"/>
 	<control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 	<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -139,14 +139,12 @@
     </gear>
     <!-- Center gear -->
     <gear x="-4.7637" y="0" z="0.88" compression="0.7" spring="0.6" damp="1.0">
-	<control-input axis="/controls/gear/brake-left" control="BRAKE"/>
-	<control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 	<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
 	<control-output control="EXTEND" prop="/gear/gear[3]/position-norm" />
 	<control-speed control="EXTEND" transition-time="15" />
     </gear>
     <!-- Left main gear (forward wheels) -->
-    <gear x="-3.1584" y="-5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
+    <gear x="-3.1584" y="5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
 	<control-input axis="/controls/gear/brake-left" control="BRAKE"/>
 	<control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 	<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
@@ -154,7 +152,7 @@
 	<control-speed control="EXTEND" transition-time="19" />
     </gear>
     <!-- Right main gear (forward wheels) -->
-    <gear x="-3.1584" y="5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
+    <gear x="-3.1584" y="-5.3128" z="0.77" compression="0.7" spring="0.6" damp="1.0">
 	<control-input axis="/controls/gear/brake-right" control="BRAKE"/>
 	<control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
 	<control-input axis="/controls/gear/gear-down" control="EXTEND"/>
