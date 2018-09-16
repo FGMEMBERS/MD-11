@@ -93,7 +93,7 @@
  		<animation>
 		<type>translate</type>
 		<object-name>Compass</object-name>
-    <property>/sim/model/door-positions/compass/position-norm</property>
+    <property>sim/model/door-positions/compass/position-norm</property>
 		<factor>0.05</factor>
  <axis>
   <x>0</x>
@@ -677,7 +677,7 @@
 	        <animation>
         <type>textranslate</type>
         <object-name>lightprotect.left</object-name>
-        <property>/sim/model/door-positions/leftlightprotect/position-norm</property>
+        <property>sim/model/door-positions/leftlightprotect/position-norm</property>
         <factor>0.068</factor>
         <axis>
             <x>-1</x>
@@ -703,7 +703,7 @@
  		<animation>
 		<type>translate</type>
 		<object-name>lightprotect.left.2</object-name>
-    <property>/sim/model/door-positions/leftlightprotect/position-norm</property>
+    <property>sim/model/door-positions/leftlightprotect/position-norm</property>
 		<factor>0.68</factor>
 	<axis>
 	    <x1-m>-26.6086</x1-m>
@@ -718,7 +718,7 @@
 	 	<animation>
  <type>rotate</type>
 		<object-name>lightprotect.left.2</object-name>
-    <property>/sim/model/door-positions/leftlightprotect/position-norm</property>
+    <property>sim/model/door-positions/leftlightprotect/position-norm</property>
  <factor>-7</factor>
  <center>
   <x-m>-26.6276</x-m>
@@ -735,7 +735,7 @@
 	 	<animation>
  <type>rotate</type>
 		<object-name>lightprotect.left.2</object-name>
-    <property>/sim/model/door-positions/leftlightprotect/position-norm</property>
+    <property>sim/model/door-positions/leftlightprotect/position-norm</property>
  <factor>-17</factor>
  <center>
   <x-m>-26.6276</x-m>

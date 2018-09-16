@@ -2256,7 +2256,7 @@ Syd Adams
 		<object-name>Slat</object-name>
 		<condition>
 			<equals>
-				<property>/controls/flight/slats</property>
+				<property>controls/flight/slats</property>
 				<value>1</value>
 			</equals>
 		</condition>
@@ -2287,7 +2287,7 @@ Syd Adams
 		<object-name>Flap15</object-name>
 		<condition>
 			<equals>
-				<property>/controls/flight/flaps</property>
+				<property>controls/flight/flaps</property>
 				<value>0.31</value>
 			</equals>
 		</condition>
@@ -2318,7 +2318,7 @@ Syd Adams
 		<object-name>Flap28</object-name>
 		<condition>
 			<equals>
-				<property>/controls/flight/flaps</property>
+				<property>controls/flight/flaps</property>
 				<value>0.58</value>
 			</equals>
 		</condition>
@@ -2349,7 +2349,7 @@ Syd Adams
 		<object-name>Flap35</object-name>
 		<condition>
 			<equals>
-				<property>/controls/flight/flaps</property>
+				<property>controls/flight/flaps</property>
 				<value>0.70</value>
 			</equals>
 		</condition>
@@ -2380,7 +2380,7 @@ Syd Adams
 		<object-name>Flap50</object-name>
 		<condition>
 			<equals>
-				<property>/controls/flight/flaps</property>
+				<property>controls/flight/flaps</property>
 				<value>1.00</value>
 			</equals>
 		</condition>
