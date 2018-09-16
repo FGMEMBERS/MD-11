@@ -23,7 +23,7 @@
 	<startup>
 	    <splash-texture>Aircraft/MD-11/splash.png</splash-texture>
         </startup>
-
+        <variant-of>MD-11</variant-of>
 	<menubar>
 	    <default>
 		<menu n="100">
