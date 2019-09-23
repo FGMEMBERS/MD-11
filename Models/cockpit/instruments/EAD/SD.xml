@@ -11,7 +11,7 @@
 		<object-name>CONFIG</object-name>
 		<condition>
 			<equals>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>CONFIG</value>
 			</equals>
 		</condition>
@@ -27,7 +27,7 @@
 		<object-name>STATUS</object-name>
 		<condition>
 			<equals>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>STATUS</value>
 			</equals>
 		</condition>
@@ -43,7 +43,7 @@
 		<object-name>MISC</object-name>
 		<condition>
 			<equals>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>MISC</value>
 			</equals>
 		</condition>
@@ -59,7 +59,7 @@
 		<object-name>CONSEQ</object-name>
 		<condition>
 			<equals>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>CONSEQ</value>
 			</equals>
 		</condition>
@@ -75,7 +75,7 @@
 		<object-name>ND</object-name>
 		<condition>
 			<equals>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>ND</value>
 			</equals>
 		</condition>

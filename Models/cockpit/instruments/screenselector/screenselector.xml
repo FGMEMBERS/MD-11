@@ -320,7 +320,7 @@
 			<repeatable>false</repeatable>
 			<binding>
 				<command>property-assign</command>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>CONFIG</value>
 			</binding>
 		</action>
@@ -335,7 +335,7 @@
 			<repeatable>false</repeatable>
 			<binding>
 				<command>property-assign</command>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>STATUS</value>
 			</binding>
 		</action>
@@ -350,7 +350,7 @@
 			<repeatable>false</repeatable>
 			<binding>
 				<command>property-assign</command>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>MISC</value>
 			</binding>
 		</action>
@@ -365,7 +365,7 @@
 			<repeatable>false</repeatable>
 			<binding>
 				<command>property-assign</command>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>CONSEQ</value>
 			</binding>
 		</action>
@@ -380,7 +380,7 @@
 			<repeatable>false</repeatable>
 			<binding>
 				<command>property-assign</command>
-				<property>/controls/sd/mode</property>
+				<property>controls/sd/mode</property>
 				<value>ND</value>
 			</binding>
 		</action>

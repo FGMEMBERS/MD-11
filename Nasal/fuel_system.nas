@@ -249,8 +249,6 @@ var fuelsys = {
 
 	# Do any transfers:
 	if (manifold_o and manifold_p) me.transfers();
-	
-#	settimer(func { me.update();},0.5);
     },
 
     transfers : func {
@@ -569,13 +567,11 @@ var fuelsys = {
     }
 };
 var MD11fuel = fuelsys.new();
-var MD11fuel_update = func {
-	MD11fuel.update();
-	settimer(MD11fuel_update,0.5);
-}
+var MD11fuel_update = maketimer (0.5, MD11fuel, func () { me.update(); });
+
 setlistener("/sim/signals/fdm-initialized", func {
 	MD11fuel.tail_mng();
-	MD11fuel_update();
+        MD11fuel_update.start ();
 	MD11fuel.idle_fuelcon();
 },0,0);
 

@@ -219,7 +219,7 @@
   <heading-deg>-12</heading-deg>
  </offsets>
  <condition>
-  <property>/services/stairs/l1</property>
+  <property>services/stairs/l1</property>
  </condition>
 </model>
 
@@ -232,7 +232,7 @@
   <z-m>5.8497</z-m>
  </offsets>
  <condition>
-  <property>/services/stairs/l2</property>
+  <property>services/stairs/l2</property>
  </condition>
 </model>
 
@@ -246,7 +246,7 @@
   <heading-deg>7.81</heading-deg>
  </offsets>
  <condition>
-  <property>/services/stairs/l4</property>
+  <property>services/stairs/l4</property>
  </condition>
 </model>
 
@@ -260,7 +260,7 @@
   <heading-deg>-168</heading-deg>
  </offsets>
  <condition>
-  <property>/services/stairs/l1_2</property>
+  <property>services/stairs/l1_2</property>
  </condition>
 </model>
 
@@ -274,7 +274,7 @@
  <heading-deg>180</heading-deg>
  </offsets>
  <condition>
-  <property>/services/stairs/l2_2</property>
+  <property>services/stairs/l2_2</property>
  </condition>
 </model>
 
@@ -288,7 +288,7 @@
   <heading-deg>172.2</heading-deg>
  </offsets>
  <condition>
-  <property>/services/stairs/l4_2</property>
+  <property>services/stairs/l4_2</property>
  </condition>
 </model>
 	
@@ -1182,7 +1182,7 @@
 <object-name>nose.scissor.up</object-name>
 <object-name>front.strut.low</object-name>
     <object-name>front.strut.high.2</object-name>
-        <property>/sim/multiplay/generic/float[10]</property>
+        <property>sim/multiplay/generic/float[10]</property>
 		<factor>68</factor>
 	 	<axis>
 			<x1-m>-20.4239</x1-m>
@@ -1215,7 +1215,7 @@
  	    	<animation>
 		<type>spin</type>
 		<object-name>tyres</object-name>
-		<property>/sim/multiplay/generic/float[11]</property>
+		<property>sim/multiplay/generic/float[11]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1297,7 +1297,7 @@
 		<object-name>tyres.right.back</object-name>
 		<object-name>tyres.right.front</object-name>
 		<object-name>right.strut.low2</object-name>
-		<property>/sim/multiplay/generic/float[5]</property>
+		<property>sim/multiplay/generic/float[5]</property>
 		<factor>-1</factor>
 		<center>
 		    <x-m>3.95</x-m>
@@ -1400,7 +1400,7 @@
      	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.right.front</object-name>
-		<property>/sim/multiplay/generic/float[13]</property>
+		<property>sim/multiplay/generic/float[13]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1417,7 +1417,7 @@
 		     	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.right.back</object-name>
-		<property>/sim/multiplay/generic/float[13]</property>
+		<property>sim/multiplay/generic/float[13]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1516,7 +1516,7 @@
 		<object-name>tyres.left.back</object-name>
 		<object-name>tyres.left.front</object-name>
 		<object-name>left.strut.low2</object-name>
-		<property>/sim/multiplay/generic/float[4]</property>
+		<property>sim/multiplay/generic/float[4]</property>
 		<factor>-1</factor>
 		<center>
 		    <x-m>3.95</x-m>
@@ -1619,7 +1619,7 @@
      	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.left.front</object-name>
-		<property>/sim/multiplay/generic/float[12]</property>
+		<property>sim/multiplay/generic/float[12]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1636,7 +1636,7 @@
 		     	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.left.back</object-name>
-		<property>/sim/multiplay/generic/float[12]</property>
+		<property>sim/multiplay/generic/float[12]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -1897,7 +1897,7 @@
 			     	    	<animation>
 		<type>spin</type>
 		<object-name>tyres.central</object-name>
-		<property>/sim/multiplay/generic/float[14]</property>
+		<property>sim/multiplay/generic/float[14]</property>
 		<factor>10</factor>
 		<axis>
 			<x>0</x>
@@ -2970,7 +2970,7 @@
 	        <animation>
         <type>translate</type>
         <object-name>rdoor.1</object-name>
-        <property>/sim/model/door-positions/rightDoor1/position-norm</property>
+        <property>sim/model/door-positions/rightDoor1/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -2984,7 +2984,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>rdoor.1</object-name>
-        <property>/sim/model/door-positions/rightDoor1/position-norm</property>
+        <property>sim/model/door-positions/rightDoor1/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>46</dep></entry>
@@ -3018,7 +3018,7 @@
  	        <animation>
         <type>translate</type>
         <object-name>rdoor.2</object-name>
-        <property>/sim/model/door-positions/rightDoor2/position-norm</property>
+        <property>sim/model/door-positions/rightDoor2/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -3032,7 +3032,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>rdoor.2</object-name>
-        <property>/sim/model/door-positions/rightDoor2/position-norm</property>
+        <property>sim/model/door-positions/rightDoor2/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>46</dep></entry>
@@ -3066,7 +3066,7 @@
   	        <animation>
         <type>translate</type>
         <object-name>rdoor.3</object-name>
-        <property>/sim/model/door-positions/rightDoor3/position-norm</property>
+        <property>sim/model/door-positions/rightDoor3/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -3080,7 +3080,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>rdoor.3</object-name>
-        <property>/sim/model/door-positions/rightDoor3/position-norm</property>
+        <property>sim/model/door-positions/rightDoor3/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>46</dep></entry>
@@ -3114,7 +3114,7 @@
   	        <animation>
         <type>translate</type>
         <object-name>rdoor.4</object-name>
-        <property>/sim/model/door-positions/rightDoor4/position-norm</property>
+        <property>sim/model/door-positions/rightDoor4/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -3128,7 +3128,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>rdoor.4</object-name>
-        <property>/sim/model/door-positions/rightDoor4/position-norm</property>
+        <property>sim/model/door-positions/rightDoor4/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>46</dep></entry>
@@ -3163,7 +3163,7 @@
  	        <animation>
         <type>translate</type>
         <object-name>ldoor.1</object-name>
-        <property>/sim/model/door-positions/leftDoor1/position-norm</property>
+        <property>sim/model/door-positions/leftDoor1/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -3177,7 +3177,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>ldoor.1</object-name>
-        <property>/sim/model/door-positions/leftDoor1/position-norm</property>
+        <property>sim/model/door-positions/leftDoor1/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>-46</dep></entry>
@@ -3211,7 +3211,7 @@
   	        <animation>
         <type>translate</type>
         <object-name>ldoor.2</object-name>
-        <property>/sim/model/door-positions/leftDoor2/position-norm</property>
+        <property>sim/model/door-positions/leftDoor2/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -3225,7 +3225,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>ldoor.2</object-name>
-        <property>/sim/model/door-positions/leftDoor2/position-norm</property>
+        <property>sim/model/door-positions/leftDoor2/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>-46</dep></entry>
@@ -3259,7 +3259,7 @@
    	        <animation>
         <type>translate</type>
         <object-name>ldoor.3</object-name>
-        <property>/sim/model/door-positions/leftDoor3/position-norm</property>
+        <property>sim/model/door-positions/leftDoor3/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -3273,7 +3273,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>ldoor.3</object-name>
-        <property>/sim/model/door-positions/leftDoor3/position-norm</property>
+        <property>sim/model/door-positions/leftDoor3/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>-46</dep></entry>
@@ -3307,7 +3307,7 @@
     	        <animation>
         <type>translate</type>
         <object-name>ldoor.4</object-name>
-        <property>/sim/model/door-positions/leftDoor4/position-norm</property>
+        <property>sim/model/door-positions/leftDoor4/position-norm</property>
 		<interpolation>
 			<entry><ind>0</ind><dep>0</dep></entry>
 			<entry><ind>0.15</ind><dep>0.15</dep></entry>
@@ -3321,7 +3321,7 @@
         <animation>
 	<type>rotate</type>
         <object-name>ldoor.4</object-name>
-        <property>/sim/model/door-positions/leftDoor4/position-norm</property>
+        <property>sim/model/door-positions/leftDoor4/position-norm</property>
 		<interpolation>
 			<entry><ind>0.10</ind><dep>0</dep></entry>
 			<entry><ind>1.0</ind><dep>-46</dep></entry>
